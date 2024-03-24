@@ -31,7 +31,44 @@ content='''
 <title> My Web Server</title>
 </head>
 <body>
-<h1>Welcome</h1>
+<h1>Top Five Revenue from Companies</h1>
+<table border=2>
+<tr>
+<th> Company Name </th>
+<th> Revenue </th>
+<th> Financial Year </th>
+</tr>
+
+<tr>
+<td> Microsoft </td>
+<td> 86$ </td>
+<td> 2014 </td>
+</tr>
+
+<tr>
+<td> Oracle </td>
+<td> 37$ </td>
+<td> 2013 </td>
+</tr>
+
+<tr>
+<td> SAP </td>
+<td> 20$ </td>
+<td> 2013 </td>
+</tr>
+
+<tr>
+<td> VMware </td>
+<td> 5.2$ </td>
+<td> 2013 </td>
+</tr>
+
+<tr>
+<td> CA Technologies </td>
+<td> 4.7$ </td>
+<td> 2013 </td>
+</tr>
+
 </body>
 </html>
 '''
@@ -50,6 +87,10 @@ httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
 ```
 ## OUTPUT:
+![image](https://github.com/TimmapuramYogeeswar/simplewebserver/assets/154494746/4f0b7a88-07ad-4e1e-9d01-67093922041e)
+![Screenshot 2024-03-24 204539](https://github.com/TimmapuramYogeeswar/simplewebserver/assets/154494746/51bcc7e3-4f85-497a-86bb-99406a5d0033)
+
+
 
 
 ## RESULT:
